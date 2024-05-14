@@ -1,0 +1,25 @@
+.container{
+
+    align-items: center;
+}
+.p1{
+    color: white;
+    font-size: 60px;
+    width:auto;
+    
+
+}
+.p1 span{
+    color:aqua;
+    cursor: pointer;
+}
+.p2{
+    color: white;
+    font-size: 60px;
+    
+    
+}
+.p2 span{
+    color:aqua;
+    cursor: pointer;
+}
