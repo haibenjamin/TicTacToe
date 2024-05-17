@@ -1,5 +1,5 @@
 import React,{ useState,useRef } from 'react'
-import circle_icon from '../Assets/circle.png';
+import circle_icon from '../Assets/circle.png'
 import cross_icon from '../Assets/cross.png'
 import "./TicTacToe.css"
 
@@ -21,8 +21,7 @@ let box6 =useRef(null);
 let box7 =useRef(null);
 let box8 =useRef(null);
 let box_array=[box0,box1,box2,box3,box4,box5,box6,box7,box8];
-let comMove:number=0;
-
+let comMove;
   const toggle=(e: React.MouseEvent<HTMLDivElement, MouseEvent>, num: number)=>{
  
   if(mpMode)
@@ -38,6 +37,8 @@ let comMove:number=0;
    
 
   }
+
+
   const onePlayerMode=(e:React.MouseEvent<HTMLDivElement, MouseEvent>,num:number)=>{
     if(lock){
       return 0;
